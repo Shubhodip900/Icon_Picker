@@ -1,0 +1,32 @@
+.icon-picker {
+    border: 1px solid #ccc;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .icon-grid {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .icon-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    transition: background 0.3s;
+  }
+  
+  .icon-item:hover {
+    background: #f0f0f0;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
